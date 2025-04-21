@@ -1,0 +1,39 @@
+table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .filter {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .example-container mat-form-field + mat-form-field {
+    margin-left: 20px;
+  }
+  .mat-form-field {
+    min-width: 250px;
+  }
+  .my-class{
+    width: 100px!important;
+    height: 35px;
+    min-width: unset!important;
+}
+.my-class-button{
+  width: 100px!important;
+  height: 45px;
+  min-width: unset!important;
+}
+.auto-width{
+  .mat-form-field {
+      width: auto !important;
+  }
+  .mat-select-value {
+      max-width: 100%;
+      width: auto;
+  }  
+}
+  
